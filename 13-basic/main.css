@@ -1,10 +1,20 @@
+/* This is fine more efficient*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Dont do it not very efficient*/
+/* * {
+  font-family: "Montserrat", sans-serif;
+} */
+
 #product-overview {
   background: #ff1b68;
 }
 
 .section-title {
-    color: #2ddf5c;
-  }
+  color: #2ddf5c;
+}
 
 h1 {
   color: white;
@@ -14,6 +24,6 @@ h1 {
 }
 
 /* Order maters when both have the same element so font-fmaily serif will override Anton. */
-h1 {
+/* h1 {
     font-family: serif;
-}
+} */
