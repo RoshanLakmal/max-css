@@ -2,6 +2,10 @@
   background: #ff1b68;
 }
 
+.section-title {
+    color: #2ddf5c;
+  }
+
 h1 {
   color: white;
   /* Getting the browser defalut fonts - preference/ customise fonts  */
@@ -9,6 +13,7 @@ h1 {
   font-family: "Anton", sans-serif;
 }
 
-.section-title {
-  color: #2ddf5c;
+/* Order maters when both have the same element so font-fmaily serif will override Anton. */
+h1 {
+    font-family: serif;
 }
